@@ -1,0 +1,44 @@
+.app{
+    text-align: center;
+}
+
+.header{
+    /* height: 10rem; */
+    background: rgb(22, 45, 76);
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.header-brand {
+    font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
+    font-size: 3.2rem;
+    font-weight: 700;
+    /* width: fit-content;
+    margin: auto; */
+}
+
+.header-icon{
+    font-size: 4rem;
+    color: white;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: rgb(22, 45, 76);
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+
+.footer-icon{
+    font-size: 4rem;
+}
+
+.body{
+    background-color: rgb(80, 172, 47);
+    min-height: 100%;
+}

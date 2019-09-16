@@ -11,4 +11,6 @@ function updateBody(board){
     renderBody(board);
     updateTournamentBoard();
     updateFixturesBoard();
+    updatePlayersBoard();
+    updateChatBoard();
 }

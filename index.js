@@ -8,10 +8,11 @@ function importScript(component){
 const components = [
     "App",
     "Header",
-    "Body",
+    "Body", "TournamentBoard",
     "Footer",
     "FixturesBoard",
-    "TournamentBoard"
+    "PlayersBoard",
+    "ChatBoard"
 ]
 
 for (component of components) {
