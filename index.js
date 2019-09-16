@@ -12,7 +12,8 @@ const components = [
     "Footer",
     "FixturesBoard",
     "PlayersBoard",
-    "ChatBoard"
+    "ChatBoard",
+    "PlayersCard"
 ]
 
 for (component of components) {

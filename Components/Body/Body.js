@@ -1,9 +1,10 @@
-renderBody("TournamentBoard");
+renderBody("PlayersBoard");
 function renderBody(board){
     tags = document.getElementsByClassName("Body");
     for (let i of tags) {
-        i.innerHTML = ""+
-        "<div class='"+board+"'></div>";
+        i.innerHTML = `
+        <div class='`+board+`'></div>
+        `;
     }
 }
 

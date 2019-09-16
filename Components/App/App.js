@@ -2,9 +2,10 @@ renderApp();
 function renderApp(){
     tags = document.getElementsByClassName("App");
     for (let i of tags) {
-        i.innerHTML = ""+
-        "<div class='Header'></div>"+
-        "<div class='Body'></div>"+
-        "<div class='Footer'></div>";   
+        i.innerHTML = `
+        <div class='Header'></div>
+        <div class='Body'></div>
+        <div class='Footer'></div>
+        `;   
     }
 }
