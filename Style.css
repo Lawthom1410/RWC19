@@ -2,22 +2,33 @@
     text-align: center;
 }
 
+.rwc-scheme{
+    color: rgb(63, 163, 222);
+    color: rgb(86, 175, 225);
+    color: rgb(55, 100, 125);
+    color: rgb(10, 28, 44);
+    color: rgb(235, 0, 41);
+}
+.rwc-logo{
+    height: 80;
+    position: relative;
+}
+
 .header{
     /* height: 10rem; */
-    background: rgb(22, 45, 76);
+    /* border: solid rgb(10, 28, 44) 10px; */
+    background: rgb(10, 28, 44);
     color: white;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
 }
-
 .header-brand {
     font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
-    font-size: 3.2rem;
+    font-size: 60;
     font-weight: 700;
-    /* width: fit-content;
-    margin: auto; */
+    /* width: fit-content; */
+    margin: auto;
 }
-
 .header-icon{
     font-size: 4rem;
     color: white;
@@ -27,11 +38,13 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    background: rgb(22, 45, 76);
-    color: white;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    background: white;
+    color: rgb(10, 28, 44);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-top: solid rgb(10, 28, 44, 0.5) 2px;
 }
 
 .footer-icon{
@@ -39,18 +52,23 @@
 }
 
 .body{
-    background-color: rgb(80, 172, 47);
+    background-color: white;
     min-height: 100%;
 }
 
 .page-title{
     font-size: 60px;
-    margin: 2.5rem;
+    margin: 2.2rem;
+}
+.title-card{
+    border-top: solid rgb(10, 28, 44) 10px;
+    border-bottom: solid rgb(10, 28, 44) 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: white;
+    color: rgb(235, 0, 41);
 }
 .TitleBar{
-    /* border: solid gray 2px; */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background: whitesmoke;
+ 
 }
 
 .PlayersCard{
@@ -84,7 +102,7 @@
     margin-right: 30px;
 }
 .player-card-body{
-    background-image: linear-gradient(rgb(0,56,96), whitesmoke, whitesmoke, whitesmoke);
+    background-image: linear-gradient(rgb(63, 163, 222), white, white, white);
 }
 .player-card-name{
     font-size: 70px;
