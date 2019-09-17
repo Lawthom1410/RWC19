@@ -12,7 +12,7 @@ function renderPlayersBoard(){
                 Image="./img/Players/`+player['image']+`"
                 Logo="./img/Teams/`+player['logo']+`"
                 Flag="./img/Teams/`+player['flag']+`"
-                class="PlayersCard mx-4">
+                class="PlayersCard mx-3">
             </div>
             ` 
         }

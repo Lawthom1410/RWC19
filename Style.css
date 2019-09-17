@@ -55,7 +55,7 @@
 
 .PlayersCard{
     display: inline-block;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .PlayersBoard{
@@ -63,23 +63,21 @@
 }
 
 .player-card{
-    height: 600px;
-    width: 25rem;
-    margin: auto;
+    height: 650px;
+    width: 26rem;
     background-color: whitesmoke;
     border: solid lightgray 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .player-card-img{
-    height: 250;
-    width: 250;
+    height: 300;
+    width: 300;
     border-radius: 50%;
     margin: auto;
     border: solid white 5px;
     box-shadow: 20px;
 }
-
 .player-card-logo{
     max-height: 140;
     max-width: 140;
