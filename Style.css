@@ -81,7 +81,7 @@
 .player-card-logo{
     max-height: 140;
     max-width: 140;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 .player-card-body{
     background-image: linear-gradient(rgb(0,56,96), whitesmoke, whitesmoke, whitesmoke);
@@ -96,6 +96,6 @@
 .player-card-flag{
     height: auto;
     width: 140;
-    margin-left: 20px;
+    margin-left: 30px;
     position: relative;
 }
