@@ -45,9 +45,15 @@
 
 .PlayersCard{
     display: inline-block;
+    margin-bottom: 5rem;
+}
+
+.PlayersBoard{
+    margin-bottom: 100px;
 }
 
 .player-card{
+    height: 600px;
     width: 25rem;
     margin: auto;
     background-color: whitesmoke;
@@ -65,21 +71,22 @@
 }
 
 .player-card-logo{
-    height: 140;
-    width: 140;
+    max-height: 140;
+    max-width: 140;
     margin-right: 20px;
 }
 .player-card-body{
     background-image: linear-gradient(rgb(0,56,96), whitesmoke, whitesmoke, whitesmoke);
 }
 .player-card-name{
-    font-size: 50px;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .player-card-team{
-    font-size: 40px;
+    font-size: 50px;
 }
 .player-card-flag{
-    height: 140;
+    height: auto;
     width: 140;
     margin-left: 20px;
     position: relative;
