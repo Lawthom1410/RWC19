@@ -8,7 +8,7 @@ function importScript(component){
 const components = [
     "App",
     "Header",
-    "Body", "TournamentBoard",
+    "Body", "TitleBar", "TournamentBoard",
     "Footer",
     "FixturesBoard",
     "PlayersBoard",

@@ -6,8 +6,8 @@
     /* height: 10rem; */
     background: rgb(22, 45, 76);
     color: white;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .header-brand {
@@ -41,6 +41,16 @@
 .body{
     background-color: rgb(80, 172, 47);
     min-height: 100%;
+}
+
+.page-title{
+    font-size: 60px;
+    margin: 2.5rem;
+}
+.TitleBar{
+    /* border: solid gray 2px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: whitesmoke;
 }
 
 .PlayersCard{
