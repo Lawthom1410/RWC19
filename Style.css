@@ -77,11 +77,11 @@
 
 .PlayersCard{
     display: inline-block;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 .Body{
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .player-card{
@@ -105,7 +105,7 @@
     margin-right: 30px;
 }
 .player-card-body{
-    background-image: linear-gradient(rgb(63, 163, 222, 0.3), white, white, white);
+    background-image: linear-gradient(to bottom, rgb(63, 163, 222, 0.3) 0%, rgb(63, 163, 222, 0.3) 25%,  white 25%, white 100%);
 }
 .player-card-name{
     font-size: 70px;
@@ -136,41 +136,44 @@
 }
 .player-element-name{
     text-align: left;
-    width: 180px;
+    width: 200px;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 40px;
+    font-size: 45px;
     /* margin-left: 50px; */
 }
+.tournament-placeholder-text{
+    font-size: 45px;
+    color: grey;
+}
 .element-grid-container{
-    width: 170px;
+    width: 390px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     grid-column-gap: 10px;
     /* grid-column-gap: 20px; */
     justify-content: space-between;
 }
 
 .group-card{
-    width: 28rem;
-    margin: 5rem;
+    width: 29rem;
+    margin-bottom: 3rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .pool-header{
-    /* background-image: linear-gradient( white, rgb(63, 163, 222, 0.3),  rgb(63, 163, 222, 0.3), white);
-    border: solid lightgrey 3px; */
+    background-color: rgb(63, 163, 222, 0.3);
 }
 .pool-title{
-    /* font-size: 40;
+    font-size: 50px;
     font-weight: 800;
-    font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif; */
+    font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
 .pool-grid-container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     justify-content: space-between;
 }
 .pool-points{
@@ -181,6 +184,6 @@
 .tournament-grid-container{
     display: grid;
     grid-template-columns: auto auto;
-    grid-column-gap: 50px;
+    grid-column-gap: 20px;
     justify-content: center;
 }

@@ -6,7 +6,7 @@ function renderBody(board){
         
         let HTML = `
         <div class='TitleBar sticky-top' Title='`+getTitle(board)+`'></div>
-        <div class='`+board+`'></div>
+        <div class='`+board+` py-5'></div>
         `;
 
         i.innerHTML = HTML;
