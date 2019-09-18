@@ -15,7 +15,6 @@ function renderPlayersCard(){
                 <h2 class="player-card-team">`+team+`</h2>
                 <img src="`+logo+`" class="player-card-logo">
                 <img src="`+flag+`" class="player-card-flag">
-
             </div>
         </div>
         `;
