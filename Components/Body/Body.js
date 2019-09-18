@@ -1,5 +1,6 @@
-renderBody("PlayersBoard");
+console.log("Body.js");
 function renderBody(board){
+    if (!board) {board = "PlayersBoard"}
     tags = document.getElementsByClassName("Body");
     for (let i of tags) {
         i.innerHTML = `
@@ -7,15 +8,11 @@ function renderBody(board){
         <div class='`+board+`'></div>
         `;
     }
-}
-
-function updateBody(board){
-    renderBody(board);
-    updateTitleBar();
-    updateTournamentBoard();
-    updateFixturesBoard();
-    updatePlayersBoard();
-    updateChatBoard();
+    renderTitleBar();
+    renderTournamentBoard();
+    renderFixturesBoard();
+    renderPlayersBoard();
+    renderChatBoard();
 }
 
 function getTitle(board){

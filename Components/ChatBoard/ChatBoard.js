@@ -1,4 +1,4 @@
-renderChatBoard();
+console.log("ChatBoard.js");
 function renderChatBoard(){
     tags = document.getElementsByClassName("ChatBoard");
     for (let i of tags) {
@@ -6,8 +6,4 @@ function renderChatBoard(){
         <h1>This will be the Message Board</h2>
         `;
     }
-}
-
-function updateChatBoard(){
-    renderChatBoard();
 }

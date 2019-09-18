@@ -1,4 +1,4 @@
-renderFooter();
+console.log("Footer.js");
 function renderFooter(){
     tags = document.getElementsByClassName("Footer");
     for (let i of tags) {
@@ -17,23 +17,19 @@ function renderFooter(){
     document.getElementById('chatBtn').addEventListener('click', () => Footer_handleChatBtn());
 }
 
-function updateFooter(){
-    renderFooter();
-}
-
 function Footer_handleTournamentBtn(){
-    updateBody("TournamentBoard");
+    renderBody("TournamentBoard");
 }
 
 function Footer_handleFixturesBtn(){
-    updateBody("FixturesBoard");
+    renderBody("FixturesBoard");
 }
 
 function Footer_handlePlayersBtn(){
-    updateBody("PlayersBoard");
+    renderBody("PlayersBoard");
 }
 
 function Footer_handleChatBtn(){
-    updateBody("ChatBoard");
+    renderBody("ChatBoard");
 }
 

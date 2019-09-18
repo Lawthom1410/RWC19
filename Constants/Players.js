@@ -1,3 +1,4 @@
+console.log("Players.js");
 function Player(name, team, img, logo, flag){
     return {
         "name": name,
@@ -28,6 +29,6 @@ const PLAYERS = [
     Player("Connor", "South Africa", "ConnorSqr.jpg", "SouthAfrica_logo.png", "SouthAfrica_flag.jpg"),
     Player("Callum", "Georgia", "CallumSqr.jpg", "Georgia_logo.png", "Georgia_flag.jpg"),
     Player("Lili","Australia", "LiliSqr2.jpg", "Australia_logo.png", "Australia_flag.jpg"),
-    Player("Rhiannon", "Wales", null, "Wales_logo.png", "Wales_flag.svg")
+    Player("Rhiannon", "Wales", "RhiannonSqr.jpeg", "Wales_logo.png", "Wales_flag.svg")
 
 ]

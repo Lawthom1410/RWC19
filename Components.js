@@ -6,7 +6,6 @@ function importScript(component){
 }
 
 const components = [
-    "App",
     "Header",
     "Body", "TitleBar", "TournamentBoard",
     "Footer",
@@ -19,3 +18,6 @@ const components = [
 for (component of components) {
     importScript(component)
 }
+importScript("App");
+
+

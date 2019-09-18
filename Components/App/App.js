@@ -1,4 +1,5 @@
 renderApp();
+console.log("App.js");
 function renderApp(){
     tags = document.getElementsByClassName("App");
     for (let i of tags) {
@@ -8,4 +9,7 @@ function renderApp(){
         <div class='Footer'></div>
         `;   
     }
+    renderHeader();
+    renderBody();
+    renderFooter();
 }

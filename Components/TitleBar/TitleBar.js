@@ -1,4 +1,3 @@
-renderTitleBar();
 function renderTitleBar(){
     tags = document.getElementsByClassName("TitleBar");
     for (let i of tags) {
@@ -9,8 +8,4 @@ function renderTitleBar(){
         </div>
         `;
     }
-}
-
-function updateTitleBar(){
-    renderTitleBar();
 }

@@ -1,4 +1,3 @@
-renderPlayersCard();
 function renderPlayersCard(){
     tags = document.getElementsByClassName("PlayersCard");
     for (let i of tags) {
@@ -20,8 +19,4 @@ function renderPlayersCard(){
         </div>
         `;
     }
-}
-
-function updatePlayersCard(){
-    renderPlayersCard();
 }

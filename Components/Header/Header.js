@@ -1,4 +1,3 @@
-renderHeader();
 function renderHeader(){
     tags = document.getElementsByClassName("Header");
     for (let i of tags) {
@@ -10,8 +9,4 @@ function renderHeader(){
         </div>
         `;
     }
-}
-
-function updateHeader(){
-    renderHeader();
 }

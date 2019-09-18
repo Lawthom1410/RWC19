@@ -1,4 +1,3 @@
-renderTournamentBoard();
 function renderTournamentBoard(){
     tags = document.getElementsByClassName("TournamentBoard");
     for (let i of tags) {
@@ -6,8 +5,4 @@ function renderTournamentBoard(){
         <h1>This will be the Tournament Board</h2>
         `;
     }
-}
-
-function updateTournamentBoard(){
-    renderTournamentBoard();
 }

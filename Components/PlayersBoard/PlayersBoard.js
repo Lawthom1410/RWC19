@@ -1,4 +1,3 @@
-renderPlayersBoard();
 function renderPlayersBoard(){
     tags = document.getElementsByClassName("PlayersBoard");
     for (let i of tags) {
@@ -20,9 +19,5 @@ function renderPlayersBoard(){
 
         i.innerHTML = HTML;
     }
-}
-
-function updatePlayersBoard(){
-    renderPlayersBoard();
-    updatePlayersCard();
+    renderPlayersCard();
 }

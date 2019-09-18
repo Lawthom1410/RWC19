@@ -1,4 +1,4 @@
-renderFixturesBoard();
+console.log("Fixtures.js");
 function renderFixturesBoard(){
     tags = document.getElementsByClassName("FixturesBoard");
     for (let i of tags) {
@@ -6,8 +6,4 @@ function renderFixturesBoard(){
         <h1>This will be the Fixtures Board</h2>
         `;
       }
-}
-
-function updateFixturesBoard(){
-    renderFixturesBoard();
 }
