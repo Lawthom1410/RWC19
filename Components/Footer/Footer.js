@@ -5,9 +5,9 @@ function renderFooter(){
         i.innerHTML = `
         <div class='container d-flex justify-content-between'>
            <a class='material-icons footer-icon' id='tournamentBtn'>table_chart</a>
-           <a class='material-icons footer-icon' id='fixturesBtn'>sports_rugby</button>
-           <a class='material-icons footer-icon' id='playersBtn'>group</button>
-           <a class='material-icons footer-icon' id='chatBtn'>forum</button>
+           <a class='material-icons footer-icon' id='fixturesBtn'>sports_rugby</a>
+           <a class='material-icons footer-icon footer-icon-active' id='playersBtn'>group</a>
+           <a class='material-icons footer-icon' id='chatBtn'>forum</a>
         </div>
         `;
     }
