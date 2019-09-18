@@ -13,8 +13,8 @@ function renderTournamentKnockoutMatch(){
 
         let HTML = ` 
         <div class="card group-card">
-            <div class="card-header">
-                <h1>`+roundLabel+`</h1>
+            <div class="card-header pool-header">
+                <h1 class="pool-title">`+roundLabel+`</h1>
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">`+player1['name']+`</li> 
