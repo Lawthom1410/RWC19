@@ -102,7 +102,7 @@
     margin-right: 30px;
 }
 .player-card-body{
-    background-image: linear-gradient(rgb(63, 163, 222), white, white, white);
+    background-image: linear-gradient(rgb(63, 163, 222, 0.5), whitesmoke, whitesmoke, whitesmoke);
 }
 .player-card-name{
     font-size: 70px;
