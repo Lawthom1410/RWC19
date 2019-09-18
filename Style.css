@@ -142,10 +142,14 @@
     font-size: 45px;
     /* margin-left: 50px; */
 }
+.tournament-placeholder-text{
+    font-size: 45px;
+    color: grey;
+}
 .element-grid-container{
-    width: 170px;
+    width: 390px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     grid-column-gap: 10px;
     /* grid-column-gap: 20px; */
     justify-content: space-between;
@@ -163,13 +167,13 @@
     background-color: rgb(63, 163, 222, 0.3);
 }
 .pool-title{
-    /* font-size: 30; */
+    font-size: 50px;
     font-weight: 800;
     font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
 .pool-grid-container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     justify-content: space-between;
 }
 .pool-points{

@@ -5,24 +5,24 @@ function renderTournamentKnockoutMatch(){
         let namePlayer1 = i.getAttribute("NamePlayer1");
         let namePlayer2 = i.getAttribute("NamePlayer2");
 
-        let player1 = PLAYERS.filter(player => player['name']==namePlayer1)[0];
-        let player2 = PLAYERS.filter(player => player['name']==namePlayer2)[0];
-
-        if (!player1) player1={"name":namePlayer1};
-        if (!player2) player2={"name":namePlayer2};
-
         let HTML = ` 
         <div class="card group-card">
             <div class="card-header pool-header">
                 <h1 class="pool-title">`+roundLabel+`</h1>
             </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item">`+player1['name']+`</li> 
-                <li class="list-group-item">`+player2['name']+`</li> 
+                <li class="list-group-item">
+                    <div class="PlayerElement" PlayerName="`+namePlayer1+`"></div>
+                </li> 
+                <li class="list-group-item">
+                    <div class="PlayerElement" PlayerName="`+namePlayer2+`"></div>
+                </li> 
             </ul>
         </div>
 `;
 
         i.innerHTML = HTML;
+
     }
+    renderPlayerElement();
 }
