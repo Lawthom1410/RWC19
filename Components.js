@@ -15,7 +15,8 @@ const components = [
     "ChatBoard",
     "PlayersCard",
     "TournamentTable",
-    "TournamentKnockoutMatch"
+    "TournamentKnockoutMatch",
+    "PlayerElement"
 ]
 
 for (component of components) {

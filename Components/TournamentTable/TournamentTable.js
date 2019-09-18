@@ -14,7 +14,11 @@ function renderTournamentTable(){
         `
         for (player of poolPlayers) {
             HTML += `
-                    <li class="list-group-item">`+player['name']+`</li>           
+            <li class="list-group-item pool-grid-container">
+                <div class="PlayerElement" PlayerName="`+player['name']+`"></div>
+                <h1 class="player-element-name">`+player['name']+`</h1>
+                <h1 class="pool-points">`+player['points']+`
+            </li> 
             `
         }
         HTML += `
@@ -23,5 +27,7 @@ function renderTournamentTable(){
         `;
 
         i.innerHTML = HTML;
+
+        renderPlayerElement();
     }
 }
