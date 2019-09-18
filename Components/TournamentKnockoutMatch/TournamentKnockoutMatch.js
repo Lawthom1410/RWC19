@@ -8,8 +8,8 @@ function renderTournamentKnockoutMatch(){
         let player1 = PLAYERS.filter(player => player['name']==namePlayer1)[0];
         let player2 = PLAYERS.filter(player => player['name']==namePlayer2)[0];
 
-        if (!player1) player1={"name":""};
-        if (!player2) player2={"name":""};
+        if (!player1) player1={"name":namePlayer1};
+        if (!player2) player2={"name":namePlayer2};
 
         let HTML = ` 
         <div class="card group-card">
