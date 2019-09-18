@@ -2,7 +2,8 @@ console.log("Footer.js");
 function renderFooter(){
     tags = document.getElementsByClassName("Footer");
     for (let i of tags) {
-        i.innerHTML = `
+        
+        let HTML = `
         <div class='container d-flex justify-content-between'>
            <a class='material-icons footer-icon' id='tournamentBtn'>table_chart</a>
            <a class='material-icons footer-icon' id='fixturesBtn'>sports_rugby</a>
@@ -10,6 +11,8 @@ function renderFooter(){
            <a class='material-icons footer-icon' id='chatBtn'>forum</a>
         </div>
         `;
+
+        i.innerHTML = HTML;
     }
     document.getElementById('tournamentBtn').addEventListener('click', () => Footer_handleTournamentBtn());
     document.getElementById('fixturesBtn').addEventListener('click', () => Footer_handleFixturesBtn());

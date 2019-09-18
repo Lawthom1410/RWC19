@@ -6,7 +6,8 @@ function renderPlayersCard(){
         let image = i.getAttribute("Image");
         let logo = i.getAttribute("Logo");
         let flag = i.getAttribute("Flag");
-        i.innerHTML = `
+        
+        let HTML = `
         <div class="card player-card">
             <div class="card-body player-card-body">
                 <img src="`+image+`" class="player-card-img">
@@ -18,5 +19,7 @@ function renderPlayersCard(){
             </div>
         </div>
         `;
+
+        i.innerHTML = HTML;
     }
 }

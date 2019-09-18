@@ -1,12 +1,15 @@
 console.log("Body.js");
 function renderBody(board){
-    if (!board) {board = "PlayersBoard"}
+    if (!board) {board = "TournamentBoard"}
     tags = document.getElementsByClassName("Body");
     for (let i of tags) {
-        i.innerHTML = `
+        
+        let HTML = `
         <div class='TitleBar sticky-top' Title='`+getTitle(board)+`'></div>
         <div class='`+board+`'></div>
         `;
+
+        i.innerHTML = HTML;
     }
     renderTitleBar();
     renderTournamentBoard();
