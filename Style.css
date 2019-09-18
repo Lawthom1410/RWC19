@@ -76,7 +76,7 @@
     margin-bottom: 3rem;
 }
 
-.PlayersBoard{
+.Body{
     margin-bottom: 100px;
 }
 
@@ -116,4 +116,12 @@
     width: 140;
     margin-left: 30px;
     position: relative;
+}
+
+.group-card{
+    width: 28rem;
+    margin: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }

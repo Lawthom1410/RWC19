@@ -1,3 +1,4 @@
+console.log("Components.js");
 function importScript(component){
     body = document.getElementById("body");
     script = document.createElement("script");
@@ -12,7 +13,9 @@ const components = [
     "FixturesBoard",
     "PlayersBoard",
     "ChatBoard",
-    "PlayersCard"
+    "PlayersCard",
+    "TournamentTable",
+    "TournamentKnockoutMatch"
 ]
 
 for (component of components) {
