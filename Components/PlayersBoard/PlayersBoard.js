@@ -2,7 +2,7 @@ function renderPlayersBoard(){
     tags = document.getElementsByClassName("PlayersBoard");
     for (let i of tags) {
         
-        let HTML = `<div class="py-5">`;
+        let HTML = ``;
         for (let player of PLAYERS) {
             HTML += `
             <div
@@ -15,7 +15,6 @@ function renderPlayersBoard(){
             </div>
             ` 
         }
-        HTML += `</div>`;
 
         i.innerHTML = HTML;
     }
