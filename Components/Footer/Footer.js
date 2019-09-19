@@ -1,8 +1,9 @@
 console.log("Footer.js");
-function renderFooter(){
+function renderFooter(activeBtn){
+    if (!activeBtn) {activeBtn = "tournamentBtn"}
     tags = document.getElementsByClassName("Footer");
     for (let i of tags) {
-        
+
         let HTML = `
         <div class='container d-flex justify-content-between'>
            <a class='material-icons footer-icon' id='tournamentBtn'>table_chart</a>
@@ -18,21 +19,26 @@ function renderFooter(){
     document.getElementById('fixturesBtn').addEventListener('click', () => Footer_handleFixturesBtn());
     document.getElementById('playersBtn').addEventListener('click', () => Footer_handlePlayersBtn());
     document.getElementById('chatBtn').addEventListener('click', () => Footer_handleChatBtn());
+    document.getElementById(activeBtn).setAttribute("style", "color: rgb(10, 28, 44)");
 }
 
 function Footer_handleTournamentBtn(){
     renderBody("TournamentBoard");
+    renderFooter("tournamentBtn");
 }
 
 function Footer_handleFixturesBtn(){
     renderBody("FixturesBoard");
+    renderFooter("fixturesBtn");
 }
 
 function Footer_handlePlayersBtn(){
     renderBody("PlayersBoard");
+    renderFooter("playersBtn");
 }
 
 function Footer_handleChatBtn(){
     renderBody("ChatBoard");
+    renderFooter("chatBtn");
 }
 

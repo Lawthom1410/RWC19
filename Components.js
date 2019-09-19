@@ -16,7 +16,8 @@ const components = [
     "PlayersCard",
     "TournamentTable",
     "TournamentKnockoutMatch",
-    "PlayerElement"
+    "PlayerElement",
+    "TournamentFinalMatch"
 ]
 
 for (component of components) {
