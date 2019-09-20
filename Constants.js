@@ -6,7 +6,8 @@ function importConstant(constant){
 }
 
 const constants = [
-    "Players"
+    "Players",
+    "Fixtures"
 ]
 
 for (constant of constants) {
