@@ -1,4 +1,3 @@
-console.log("Players.js");
 function Player(name, team, img, logo, flag, pool, points){
     return {
         "name": name,
@@ -32,5 +31,8 @@ const PLAYERS = [
     Player("Callum", "Georgia", "CallumSqr.jpg", "Georgia_logo.png", "Georgia_flag.jpg", "D", 0),
     Player("Lili","Australia", "LiliSqr2.jpg", "Australia_logo.png", "Australia_flag.jpg", "D", 0),
     Player("Rhiannon", "Wales", "RhiannonSqr.jpeg", "Wales_logo.png", "Wales_flag.svg", "D", 0)
-
 ]
+
+function getPlayer(name){
+    return PLAYERS.filter(player => player['name']==name)[0];
+}

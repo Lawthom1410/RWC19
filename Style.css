@@ -195,3 +195,67 @@
 .final-card{
     width: 50rem;
 }
+
+.fixtures-header-container{
+    width: 900px;
+    margin: auto;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.fixture-details{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: grid;
+    grid-template-columns: auto 500px auto;
+}
+.fixture-images{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    margin: 10px;
+}
+.fixture-element-img{
+    height: 100;
+    width: 100;
+    border-radius: 50%;
+    /* margin: auto; */
+    border: solid lightgray 3px;
+}
+.fixture-element-logo{
+    max-height: 80;
+    max-width: 80;
+    margin: auto;
+}
+.fixture-names{
+    /* font-size: 80px; */
+    font-weight: bold;
+}
+.fixture-text-container{
+    margin: auto;
+}
+.FixturesCard{
+    margin-top: 20px;
+}
+.FixturesDateContainer{
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 80px;
+
+}
+.date-label{
+    text-align: left;
+    margin-left: 10px;
+    /* font-weight: bold; */
+}
+/* .datetime-element{
+    display: grid;
+    grid-template-columns: 50px auto;
+    grid-column-gap: 10px;
+    text-align: left;
+} */
+.fixture-label{
+    background-color: rgb(63, 163, 222, 0.5);
+}
