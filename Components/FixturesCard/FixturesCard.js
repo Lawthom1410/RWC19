@@ -2,22 +2,27 @@ function renderFixturesCard(){
     tags = document.getElementsByClassName("FixturesCard");
     for (let i of tags) {
         let fixtureId = i.getAttribute("FixtureId");
-        
+
         let fixture = getFixture(fixtureId);
         let homePlayer = getPlayer(fixture['homeName']);
         let awayPlayer = getPlayer(fixture['awayName']);
+        
         let score;
         if(fixture['homeScore']!=null){
             score = fixture['homeScore']+`-`+fixture['awayScore'];
         } else {
             score = `v`;
         }
+        
         let stage;
         if(fixture['stage']=="pool"){
             stage = "Pool " + homePlayer['pool'];
         } else {
             stage = fixture['stage']
         }
+
+        let homeName;
+        let awayName;
 
         let HTML = ` 
         <div class="card">
