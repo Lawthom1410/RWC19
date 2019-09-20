@@ -5,12 +5,12 @@ function renderTournamentBoard(){
         let HTML = `
         <div class="tournament-grid-container">
             <div class="TournamentTable" Pool="A"></div>
-            <div class="TournamentTable" Pool="B"></div>
+            <div class="TournamentTable" Pool="C"></div>
         </div>
 
         <div class="tournament-grid-container">
             <div class="TournamentKnockoutMatch" RoundLabel="Quarter Final" namePlayer1="Winner Pool A" namePlayer2="Runner-Up Pool B"></div>
-            <div class="TournamentKnockoutMatch" RoundLabel="Quarter Final" namePlayer1="Winner Pool B" namePlayer2="Runner-Up Pool A"></div>
+            <div class="TournamentKnockoutMatch" RoundLabel="Quarter Final" namePlayer1="Winner Pool C" namePlayer2="Runner-Up Pool D"></div>
         </div>
 
         <div class="tournament-grid-container">
@@ -26,12 +26,12 @@ function renderTournamentBoard(){
         </div>
 
         <div class="tournament-grid-container">
-            <div class="TournamentKnockoutMatch" RoundLabel="Quarter Final" namePlayer1="Winner Pool C" namePlayer2="Runner-Up Pool D"></div>
+            <div class="TournamentKnockoutMatch" RoundLabel="Quarter Final" namePlayer1="Winner Pool B" namePlayer2="Runner-Up Pool A"></div>
             <div class="TournamentKnockoutMatch" RoundLabel="Quarter Final" namePlayer1="Winner Pool D" namePlayer2="Runner-Up Pool C"></div>
         </div>
 
         <div class="tournament-grid-container">
-            <div class="TournamentTable" Pool="C"></div>
+            <div class="TournamentTable" Pool="B"></div>
             <div class="TournamentTable" Pool="D"></div>
         </div>
 
