@@ -30,7 +30,7 @@ const PLAYERS = [
     Player("Joe", "Uruguay", "JoeSqr.jpg", "Uruguay_logo.png", "Uruguay_flag.jpg", "D", 0, 0),
     Player("Connor", "South Africa", "ConnorSqr.jpg", "SouthAfrica_logo.png", "SouthAfrica_flag.jpg", "B", 0, 0),
     Player("Callum", "Georgia", "CallumSqr.jpg", "Georgia_logo.png", "Georgia_flag.jpg", "D", 0, 0),
-    Player("Lili","Australia", "LiliSqr2.jpg", "Australia_logo.png", "Australia_flag.jpg", "D", 0, 0),
+    Player("Lili","Australia", "LiliSqr2.jpg", "Australia_logo.png", "Australia_flag.jpg", "D", 0, 5),
     Player("Rhiannon", "Wales", "RhiannonSqr.jpeg", "Wales_logo.png", "Wales_flag.svg", "D", 0, 0)
 ]
 
