@@ -37,8 +37,17 @@ function renderFixturesCard(){
                 </div>
                 <div class="fixture-text-container">
                     <h3 class="fixture-detail">`+stage+`</h3>
-                    <h1 class="fixture-names">
-                        `+homePlayer['name'].toUpperCase()+` `+score+` `+awayPlayer['name'].toUpperCase()+`</h1>
+                    <div class="fixture-names-score">
+                        <div>
+                            <h1 class="fixture-name">`+homePlayer['name'].toUpperCase()+`</h1>
+                            <h3 class="fixture-team">`+homePlayer['team']+`</h3>
+                        </div>
+                        <h1 class="fixture-score">`+score+`</h1>
+                        <div>
+                            <h1 class="fixture-name">`+awayPlayer['name'].toUpperCase()+`</h1>
+                            <h3 class="fixture-team">`+awayPlayer['team']+`</h3>
+                        </div>
+                    </div>
                     <h3 class="fixture-detail">`+fixture['venue']+`</h3>
                 </div>
                 <div class="fixture-images">

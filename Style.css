@@ -219,7 +219,7 @@
     margin-top: auto;
     margin-bottom: auto;
     display: grid;
-    grid-template-columns: auto 500px auto;
+    grid-template-columns: auto min-content auto;
 }
 .fixture-images{
     display: grid;
@@ -239,9 +239,24 @@
     max-width: 80;
     margin: auto;
 }
-.fixture-names{
+.fixture-names-score{
+    display: grid;
+    grid-template-columns: auto max-content auto;
+    justify-content: center;
+    grid-column-gap: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.fixture-name{
     /* font-size: 80px; */
     font-weight: bold;
+    width: 250px;
+}
+/* .fixture-team{
+    font-weight: bold;
+} */
+.fixture-score{
+    margin: auto;
 }
 .fixture-text-container{
     margin: auto;
