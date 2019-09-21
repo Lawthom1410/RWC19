@@ -134,12 +134,24 @@
     margin-top: auto;
     margin-bottom: auto;
 }
+.player-element-name-team{
+    display: grid;
+    grid-template-rows: auto auto;
+}
 .player-element-name{
     text-align: left;
     width: 200px;
     margin-top: auto;
     margin-bottom: auto;
     font-size: 45px;
+    /* margin-left: 50px; */
+}
+.player-element-team{
+    text-align: left;
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
     /* margin-left: 50px; */
 }
 .tournament-placeholder-text{
