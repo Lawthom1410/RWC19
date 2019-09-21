@@ -24,7 +24,7 @@ const PLAYERS = [
     Player("Ian", "Fiji", "IanSqr.png", "Fiji_logo.png", "Fiji_flag.jpg", "D", 0, 0),
     Player("Julian", "Argentina", "JulianSqr.png", "Argentina_logo.png", "Argentina_flag.jpg", "C", 0, 1),
     Player("Lee", "Italy", "LeeSqr.png", "Italy_logo.png", "Italy_flag.jpg", "B", 0, 0),
-    Player("Leah", "New Zealand", "LeahSqr2.png", "NewZealand_logo.png", "NewZealand_flag.jpg", "B", 0, 0),
+    Player("Leah", "New Zealand", "LeahSqr2.png", "NewZealand_logo.png", "NewZealand_flag.jpg", "B", 0, 4),
     Player("Gary", "Japan", "GarySqr.jpg", "Japan_logo.png", "Japan_flag.jpg", "A", 0, 5),
     Player("Jack", "U.S.A", "JackSqr.jpg", "USA_logo.png", "USA_flag.jpg", "C", 0, 0),
     Player("Joe", "Uruguay", "JoeSqr.jpg", "Uruguay_logo.png", "Uruguay_flag.jpg", "D", 0, 0),
