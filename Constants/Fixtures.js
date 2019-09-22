@@ -18,7 +18,7 @@ const FIXTURES = [
     Fixture(2, "Lili", "Ian", 39, 21, "pool", "sat", "21 september", "05:45", "Sapporo Dome, Sapporo" ),
     Fixture(3, "Josie", "Julian", 23, 21, "pool", "Sat", "21 september", "08:15", "Tokyo Stadium, Tokyo"),
     Fixture(4, "Leah", "Connor", 23, 13, "pool", "sat", "21 september", "10:45", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City"),
-    Fixture(5, "Lee", "Geraint", null, null, "pool", "sun", "22 september", "06:15", "Hanazono Rugby Stadium, Osaka Prefecture, Higashiosaka City"),
+    Fixture(5, "Lee", "Geraint", 47, 22, "pool", "sun", "22 september", "06:15", "Hanazono Rugby Stadium, Osaka Prefecture, Higashiosaka City"),
     Fixture(6, "Claire", "Freddy", null, null, "pool", "sun", "22 september", "08:45", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City"),
     Fixture(7, "Naomi", "Andrea", null, null, "pool", "sun", "22 september", "11:15", "Sapporo Dome, Sapporo"),
     Fixture(8, "Rhiannon", "Callum", null, null, "pool", "mon", "23 september", "11:15", "City of Toyota Stadium, Aichi Prefecture, Toyota City"),
