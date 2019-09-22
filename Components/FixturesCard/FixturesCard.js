@@ -55,6 +55,9 @@ function renderFixturesCard(){
                     <img src="./img/Teams/`+awayPlayer['logo']+`" class="fixture-element-logo"></img>
                 </div>
             </div>
+            <div class="card-footer">
+                <h1><a href="https://www.rugbyworldcup.com/match/`+homePlayer['team']+`-`+awayPlayer['team']+`" target="_blank">Match Info ></a></h1>
+            </div>
         </div>
         `;
 
