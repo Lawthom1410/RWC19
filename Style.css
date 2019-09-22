@@ -54,7 +54,7 @@
 .body{
     background-color: white;
     min-height: 100%;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .page-title{
@@ -175,12 +175,12 @@
 
 .group-card{
     width: 29rem;
-    margin-top: 3rem;
-    /* margin-bottom: 3rem; */
+    /* margin-top: 3rem; */
+    margin-bottom: 3rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .pool-header{
     background-color: rgb(10, 28, 44);

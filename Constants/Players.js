@@ -12,11 +12,11 @@ function Player(name, team, img, logo, flag, pool, tieBreak, points){
 }
 
 const PLAYERS = [
-    Player("Andrea", "Tonga", "Andrea.jpg", "Tonga_logo.png", "Tonga_flag.jpg", "C", 0, 0),
+    Player("Andrea", "Tonga", "Andrea.jpg", "Tonga_logo.png", "Tonga_flag.jpg", "C", -1, 0),
     Player("Claire", "Ireland", "Claire2.jpg", "Ireland_logo.png", "Ireland_flag.jpg", "A", 1, 5),
     Player("Freddy", "Scotland", "FreddySqr2.png" ,"Scotland_logo.png", "Scotland_flag.jpg", "A", -1, 0),
     Player("Louise", "Russia", "LouiseSqr2.jpg", "Russia_logo.png", "Russia_flag.jpg", "A", -1, 0),
-    Player("Naomi", "England", "NaomiSqr.jpg", "England_logo.png", "England_flag.jpg", "C", 0, 0),
+    Player("Naomi", "England", "NaomiSqr.jpg", "England_logo.png", "England_flag.jpg", "C", 0, 5),
     Player("George", "Canada", "GeorgeSqr2.png", "Canada_logo.png", "Canada_flag.jpg", "B", 0, 0),
     Player("Geraint", "Namibia", "GeraintSqr.png", "Namibia_logo.png", "Namibia_flag.jpg", "B", -2, 0),
     Player("Josie", "France", "JosieSqr.png", "France_logo.png", "France_flag.jpg", "C", 0, 4),
