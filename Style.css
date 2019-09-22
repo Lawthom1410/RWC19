@@ -43,7 +43,7 @@
     padding-top: 2.2rem;
     padding-bottom: 2.2rem;
     width: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     border-top: solid rgb(10, 28, 44, 0.5) 2px;
 }
 
@@ -54,6 +54,7 @@
 .body{
     background-color: white;
     min-height: 100%;
+    padding-bottom: 150px;
 }
 
 .page-title{
@@ -63,7 +64,7 @@
 .title-card{
     border-top: solid rgb(10, 28, 44) 10px;
     border-bottom: solid rgb(10, 28, 44) 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     background: white;
     color: rgb(235, 0, 41);
 }
@@ -74,14 +75,18 @@
 .inline {
     display: inline-block;
 }
-
+.PlayersBoard{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    background-color: white;
+    grid-row-gap: 1rem;
+}
 .PlayersCard{
     display: inline-block;
-    margin-bottom: 2.5rem;
-}
-
-.Body{
-    margin-bottom: 100px;
+    padding: 1rem;
+    /* margin: 0.5rem; */
+    background-color: white;
 }
 
 .player-card{
@@ -89,7 +94,7 @@
     width: 28rem;
     background-color: whitesmoke;
     border: solid lightgray 4px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .player-card-img{
@@ -165,15 +170,17 @@
     grid-column-gap: 10px;
     /* grid-column-gap: 20px; */
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .group-card{
     width: 29rem;
-    margin-bottom: 3rem;
+    margin-top: 3rem;
+    /* margin-bottom: 3rem; */
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 .pool-header{
     background-color: rgb(10, 28, 44);
@@ -195,6 +202,7 @@
     font-size: 40px;
 }
 .tournament-grid-container{
+    background-color: white;
     display: grid;
     grid-template-columns: auto auto;
     grid-column-gap: 20px;
@@ -209,11 +217,15 @@
 }
 
 .fixtures-header-container{
-    width: 900px;
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.5);
     margin: auto;
     justify-content: space-between;
     display: grid;
     grid-template-columns: auto auto;
+}
+.fixtures-footer{
+    background-color: rgba(245, 245, 245, 0.5);
 }
 .fixture-details{
     margin-top: auto;
@@ -264,15 +276,18 @@
 .FixturesCard{
     margin-bottom: 20px;
     margin-top:  20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 
 }
 .FixturesDateContainer{
+    background-color: white;
     display: grid;
     grid-template-rows: auto auto;
-    width: 900px;
+    width: 100%;
     margin: auto;
-    margin-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 
 }
 .date-label{
