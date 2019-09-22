@@ -56,7 +56,7 @@ function renderFixturesCard(){
                 </div>
             </div>
             <div class="card-footer">
-                <h1><a href="https://www.rugbyworldcup.com/match/`+homePlayer['team']+`-`+awayPlayer['team']+`" target="_blank">Match Info ></a></h1>
+                <h1><a href="https://www.rugbyworldcup.com/match/`+homePlayer['team'].replace(/\s/g, '')+`-`+awayPlayer['team'].replace(/\s/g, '')+`" target="_blank">Match Info ></a></h1>
             </div>
         </div>
         `;
