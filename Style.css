@@ -218,14 +218,14 @@
 
 .fixtures-header-container{
     width: 100%;
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(245, 245, 245, 0.5);
     margin: auto;
     justify-content: space-between;
     display: grid;
     grid-template-columns: auto auto;
 }
 .fixtures-footer{
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(245, 245, 245, 0.5);
 }
 .fixture-details{
     margin-top: auto;
@@ -288,7 +288,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 20px;
-
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-bottom: solid whitesmoke 30px;
 }
 .date-label{
     text-align: left;
