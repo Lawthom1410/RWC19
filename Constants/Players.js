@@ -29,9 +29,9 @@ const PLAYERS = [
     Player("Jack", "U.S.A", "JackSqr.jpg", "USA_logo.png", "USA_flag.jpg", "C", 0, 0),
     Player("Joe", "Uruguay", "JoeSqr.jpg", "Uruguay_logo.png", "Uruguay_flag.jpg", "D", 0, 0),
     Player("Connor", "South Africa", "ConnorSqr.jpg", "SouthAfrica_logo.png", "SouthAfrica_flag.jpg", "B", -1, 0),
-    Player("Callum", "Georgia", "CallumSqr.jpg", "Georgia_logo.png", "Georgia_flag.jpg", "D", 0, 0),
+    Player("Callum", "Georgia", "CallumSqr.jpg", "Georgia_logo.png", "Georgia_flag.jpg", "D", -2, 0),
     Player("Lili","Australia", "LiliSqr2.jpg", "Australia_logo.png", "Australia_flag.jpg", "D", 0, 5),
-    Player("Rhiannon", "Wales", "RhiannonSqr.jpeg", "Wales_logo.png", "Wales_flag.svg", "D", 0, 0)
+    Player("Rhiannon", "Wales", "RhiannonSqr.jpeg", "Wales_logo.png", "Wales_flag.svg", "D", 1, 5)
 ]
 
 function getPlayer(name){
