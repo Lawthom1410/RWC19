@@ -20,7 +20,7 @@ const PLAYERS = [
     Player("George", "Canada", "GeorgeSqr2.png", "Canada_logo.png", "Canada_flag.jpg", "B", 0, 0),
     Player("Geraint", "Namibia", "GeraintSqr.png", "Namibia_logo.png", "Namibia_flag.jpg", "B", -2, 0),
     Player("Josie", "France", "JosieSqr.png", "France_logo.png", "France_flag.jpg", "C", 0, 4),
-    Player("Martine", "Samoa", "MartineSqr3.png", "Samoa_logo.png", "Samoa_flag.jpg", "A", 0, 0),
+    Player("Martine", "Samoa", "MartineSqr3.png", "Samoa_logo.png", "Samoa_flag.jpg", "A", 2, 5),
     Player("Ian", "Fiji", "IanSqr.png", "Fiji_logo.png", "Fiji_flag.jpg", "D", -1, 0),
     Player("Julian", "Argentina", "JulianSqr.png", "Argentina_logo.png", "Argentina_flag.jpg", "C", 0, 1),
     Player("Lee", "Italy", "LeeSqr.png", "Italy_logo.png", "Italy_flag.jpg", "B", 0, 5),
