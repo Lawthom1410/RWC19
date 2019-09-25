@@ -220,14 +220,14 @@
 
 .fixtures-header-container{
     width: 100%;
-    background-color: rgba(245, 245, 245, 1);
+    background-color: white;
     margin: auto;
     justify-content: space-between;
     display: grid;
     grid-template-columns: auto auto;
 }
 .fixtures-footer{
-    background-color: rgba(245, 245, 245, 1);
+    background-color: white;
 }
 .fixture-details{
     margin-top: auto;
@@ -278,7 +278,7 @@
 .FixturesCard{
     margin-bottom: 20px;
     margin-top:  20px;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .FixturesDateContainer{
     background-color: white;
