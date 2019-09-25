@@ -175,7 +175,7 @@
 }
 
 .group-card{
-    width: 29rem;
+    width: 30rem;
     /* margin-top: 3rem; */
     margin-bottom: 3rem;
     margin-left: auto;
@@ -207,7 +207,7 @@
     background-color: white;
     display: grid;
     grid-template-columns: auto auto;
-    grid-column-gap: 20px;
+    /* grid-column-gap: 20px; */
     justify-content: center;
 }
 .final-grid-container{
