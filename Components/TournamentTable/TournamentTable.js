@@ -5,7 +5,6 @@ function renderTournamentTable(){
         let pool = i.getAttribute("Pool");
         let poolPlayers = PLAYERS.filter(player => player['pool']==pool)
         .sort((a,b) => (a.points < b.points) ? 1 : (a.points === b.points) ? ((a.tieBreak < b.tieBreak) ? 1: -1) : -1);
-        console.log(poolPlayers);
         
         let HTML = `
             <div class="card group-card">
