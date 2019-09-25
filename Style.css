@@ -19,12 +19,12 @@
     /* border: solid rgb(10, 28, 44) 10px; */
     background: rgb(10, 28, 44);
     color: white;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 .header-brand {
     font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
-    font-size: 60;
+    font-size: 55;
     font-weight: 700;
     /* width: fit-content; */
     margin: auto;
@@ -59,7 +59,7 @@
 
 .page-title{
     font-size: 60px;
-    margin: 2.2rem;
+    margin: 1.5rem;
 }
 .title-card{
     border-top: solid rgb(10, 28, 44) 10px;
