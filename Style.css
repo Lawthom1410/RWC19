@@ -177,7 +177,6 @@
 .group-card{
     width: 29rem;
     /* margin-top: 3rem; */
-    border: solid lightblue 10px;
     margin-bottom: 3rem;
     margin-left: auto;
     margin-right: auto;
@@ -188,7 +187,6 @@
     background-color: rgb(10, 28, 44);
     /* background-image: url("./img/Style/blue-bg.jpg"); */
     color: white;
-    border-bottom: solid lightblue 10px;
 }
 .pool-title{
     font-size: 50px;
@@ -244,8 +242,8 @@
     margin: 10px;
 }
 .fixture-element-img{
-    height: 150;
-    width: 150;
+    height: 140;
+    width: 140;
     border-radius: 50%;
     /* margin: auto; */
     border: solid lightgray 3px;
@@ -273,7 +271,6 @@
 } */
 .fixture-score{
     margin: auto;
-    font-size: 50px;
 }
 .fixture-text-container{
     margin: auto;
