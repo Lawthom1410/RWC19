@@ -207,7 +207,7 @@
     background-color: white;
     display: grid;
     grid-template-columns: auto auto;
-    /* grid-column-gap: 20px; */
+    grid-column-gap: 8px;
     justify-content: center;
 }
 .final-grid-container{
