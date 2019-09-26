@@ -277,9 +277,11 @@
 }
 .fixtures-filter-btn{
     font-size: 50px;
-    background-color: whitesmoke;
-    color: rgb(10, 28, 44);
+    /* background-color: whitesmoke; */
+    /* color: rgb(10, 28, 44); */
     margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .FixturesCard{
     margin-bottom: 20px;
