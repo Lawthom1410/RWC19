@@ -275,6 +275,12 @@
 .fixture-text-container{
     margin: auto;
 }
+.fixtures-filter-btn{
+    font-size: 50px;
+    background-color: whitesmoke;
+    color: rgb(10, 28, 44);
+    margin-bottom: 30px;
+}
 .FixturesCard{
     margin-bottom: 20px;
     margin-top:  20px;
