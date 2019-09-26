@@ -1,4 +1,3 @@
-console.log("Body.js");
 function renderBody(board){
     if (!board) {board = "TournamentBoard"}
     tags = document.getElementsByClassName("Body");
