@@ -1,4 +1,3 @@
-console.log("Footer.js");
 function renderFooter(activeBtn){
     if (!activeBtn) {activeBtn = "tournamentBtn"}
     tags = document.getElementsByClassName("Footer");
