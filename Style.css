@@ -296,13 +296,18 @@
 .fixture-text-container{
     margin: auto;
 }
+.fixtures-filters-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 30px;
+}
 .fixtures-filter-btn{
-    font-size: 50px;
+    font-size: 45px;
     /* background-color: whitesmoke; */
     /* color: rgb(10, 28, 44); */
-    margin-bottom: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+    
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .FixturesCard{
     display: grid;

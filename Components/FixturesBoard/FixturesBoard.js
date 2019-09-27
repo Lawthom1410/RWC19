@@ -5,14 +5,16 @@ function renderFixturesBoard(activeMatches){
     let currentDate;
       
     let HTML = `
-    <div>
-      <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" onClick="renderFixturesBoard()">All</button>
-      <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" onClick="filterFixtures()">Fixtures</button>
-      <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" onClick="filterResults()">Results</button>
-    </div>
-    <div>
-      <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" onClick="filterToday()">Today</button>
-      <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" onClick="filterTomorrow()">Tomorrow</button>
+    <div class="fixtures-filters-container">
+      <div>
+        <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" onClick="renderFixturesBoard()">All</button>
+        <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" onClick="filterFixtures()">Fixtures</button>
+        <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" onClick="filterResults()">Results</button>
+      </div>
+      <div>
+        <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" onClick="filterToday()">Today</button>
+        <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" onClick="filterTomorrow()">Tomorrow</button>
+      </div>
     </div>
     `;
     for (let match of activeMatches){
