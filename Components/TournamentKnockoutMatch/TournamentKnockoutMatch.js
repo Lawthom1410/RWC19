@@ -7,7 +7,7 @@ function renderTournamentKnockoutMatch(){
 
         let HTML = ` 
         <div class="card group-card">
-            <div class="card-header pool-header">
+            <div class="card-header pool-header pool-header-`+roundLabel.replace(' ', '-')+`">
                 <h1 class="pool-title">`+roundLabel+`</h1>
             </div>
             <ul class="list-group list-group-flush">

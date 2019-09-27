@@ -7,7 +7,7 @@ function renderTournamentFinalMatch(){
 
         let HTML = ` 
         <div class="card group-card final-card">
-            <div class="card-header pool-header">
+            <div class="card-header pool-header pool-header-Final">
                 <h1 class="pool-title">`+roundLabel+`</h1>
             </div>
             <ul class="list-group list-group-flush final-grid-container">

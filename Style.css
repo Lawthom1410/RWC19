@@ -184,9 +184,30 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .pool-header{
-    background-color: rgb(10, 28, 44);
-    /* background-image: url("./img/Style/blue-bg.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
+}
+.pool-header-A{
+    background-image: url("./img/Style/blue-bg.jpg");
+}
+.pool-header-B{
+    background-image: url("./img/Style/red-bg.jpg");
+}
+.pool-header-C{
+    background-image: url("./img/Style/green-bg.jpg");
+}
+.pool-header-D{
+    background-image: url("./img/Style/purple-bg.jpg");
+}
+.pool-header-Quarter-Final{
+    background-image: url("./img/Style/yellow-bg.jpg");
+}
+.pool-header-Semi-Final{
+    background-image: url("./img/Style/orange-bg.jpg");
+}
+.pool-header-Final{
+    background-image: url("./img/Style/gold-bg.jpg");
 }
 .pool-title{
     font-size: 50px;
@@ -242,8 +263,8 @@
     margin: 10px;
 }
 .fixture-element-img{
-    height: 140;
-    width: 140;
+    height: 125;
+    width: 125;
     border-radius: 50%;
     /* margin: auto; */
     border: solid lightgray 3px;
@@ -284,6 +305,8 @@
     margin-right: 10px;
 }
 .FixturesCard{
+    display: grid;
+    grid-template-columns: 50px auto;
     margin-bottom: 20px;
     margin-top:  20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -312,5 +335,5 @@
     text-align: left;
 } */
 .fixture-label{
-    background-color: rgb(63, 163, 222, 0.5);
+    background-size: cover;
 }

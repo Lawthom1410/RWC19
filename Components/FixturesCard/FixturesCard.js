@@ -17,14 +17,17 @@ function renderFixturesCard(){
         let stage;
         if(fixture['stage']=="pool"){
             stage = "Pool " + homePlayer['pool'];
+            stageLabel = homePlayer['pool'];
         } else {
             stage = fixture['stage']
+            stageLabel = stage.replace(' ','-');
         }
 
         let homeName;
         let awayName;
 
         let HTML = ` 
+        <div class="fixture-label pool-header-`+stageLabel+`"></div>
         <div class="card">
             <div class="card-header fixtures-header-container">
                 <h1>`+fixture['day'].toUpperCase()+` `+fixture['date'].toUpperCase()+`</h1>

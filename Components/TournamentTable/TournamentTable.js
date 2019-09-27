@@ -1,6 +1,5 @@
 function renderTournamentTable(){
     tags = document.getElementsByClassName("TournamentTable");
-    console.log(tags);
     for (let i of tags) {
         let pool = i.getAttribute("Pool");
         let poolPlayers = PLAYERS.filter(player => player['pool']==pool)
@@ -8,7 +7,7 @@ function renderTournamentTable(){
         
         let HTML = `
             <div class="card group-card">
-                <div class="card-header pool-header">
+                <div class="card-header pool-header pool-header-`+pool+`">
                     <h1 class="pool-title">Pool `+pool+`</h1>
                 </div>
                 <ul class="list-group list-group-flush">
@@ -28,6 +27,7 @@ function renderTournamentTable(){
 
         i.innerHTML = HTML;
 
-        renderPlayerElement();
     }
+
+    renderPlayerElement();
 }
