@@ -23,21 +23,25 @@ function renderFooter(activeBtn){
 
 function Footer_handleTournamentBtn(){
     renderBody("TournamentBoard");
+    document.getElementsByClassName("Body")[0].scrollIntoView();
     renderFooter("tournamentBtn");
 }
 
 function Footer_handleFixturesBtn(){
     renderBody("FixturesBoard");
+    document.getElementsByClassName("Body")[0].scrollIntoView();
     renderFooter("fixturesBtn");
 }
 
 function Footer_handlePlayersBtn(){
     renderBody("PlayersBoard");
+    document.getElementsByClassName("Body")[0].scrollIntoView();
     renderFooter("playersBtn");
 }
 
 function Footer_handleChatBtn(){
     renderBody("ChatBoard");
+    document.getElementsByClassName("Body")[0].scrollIntoView();
     renderFooter("chatBtn");
 }
 
