@@ -1,5 +1,6 @@
-function renderFixturesBoard(activeMatches){
+function renderFixturesBoard(activeMatches, activeBtn){
   if(!activeMatches) {activeMatches = FIXTURES}
+  if(!activeBtn) {activeBtn = "All"}
   tags = document.getElementsByClassName("FixturesBoard");
   for (let i of tags) {
     let currentDate;
@@ -7,13 +8,13 @@ function renderFixturesBoard(activeMatches){
     let HTML = `
     <div class="fixtures-filters-container">
       <div>
-        <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" onClick="renderFixturesBoard()">All</button>
-        <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" onClick="filterFixtures()">Fixtures</button>
-        <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" onClick="filterResults()">Results</button>
+        <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" id="fixtureBtnAll" onClick="renderFixturesBoard()">All</button>
+        <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" id="fixtureBtnFixtures" onClick="filterFixtures()">Fixtures</button>
+        <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" id="fixtureBtnResults" onClick="filterResults()">Results</button>
       </div>
       <div>
-        <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" onClick="filterToday()">Today</button>
-        <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" onClick="filterTomorrow()">Tomorrow</button>
+        <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" id="fixtureBtnToday" onClick="filterToday()">Today</button>
+        <button class="btn btn-outline-dark btn-lg fixtures-filter-btn" id="fixtureBtnTomorrow" onClick="filterTomorrow()">Tomorrow</button>
       </div>
     </div>
     `;
@@ -32,32 +33,34 @@ function renderFixturesBoard(activeMatches){
     }
 
     i.innerHTML = HTML;
+
+    document.getElementById("fixtureBtn"+activeBtn).setAttribute('class', 'btn btn-primary btn-lg fixtures-filter-btn');
   }
   renderFixturesDateContainer(activeMatches);
 }
 
 function filterFixtures() {
   activeMatches = FIXTURES.filter(match => match['homeScore']==null);
-  renderFixturesBoard(activeMatches);
+  renderFixturesBoard(activeMatches, "Fixtures");
 }
 
 function filterResults() {
   activeMatches = FIXTURES.filter(match => match['homeScore']!=null);
-  renderFixturesBoard(activeMatches);
+  renderFixturesBoard(activeMatches, "Results");
 }
 
 function filterToday() {
   date = getTodayDate();
   day = (date[0]).toString();
   activeMatches = FIXTURES.filter(match => match['date']==day+" "+date[1]);
-  renderFixturesBoard(activeMatches);
+  renderFixturesBoard(activeMatches, "Today");
 }
 
 function filterTomorrow() {
   date = getTodayDate();
   day = (date[0]+1).toString();
   activeMatches = FIXTURES.filter(match => match['date']==day+" "+date[1]);
-  renderFixturesBoard(activeMatches);
+  renderFixturesBoard(activeMatches, "Tomorrow");
 }
 
 function getTodayDate() {
