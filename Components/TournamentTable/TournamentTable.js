@@ -12,9 +12,15 @@ function renderTournamentTable(){
                 </div>
                 <ul class="list-group list-group-flush">
         `
+        let playerCount = 0;
         for (player of poolPlayers) {
+            playerCount++;
             HTML += `
-            <li class="list-group-item pool-grid-container">
+            <li class="list-group-item pool-grid-container `
+            if(playerCount==2){
+                HTML += `pool-second-player`;
+            }
+            HTML += ` ">
                 <div class="PlayerElement" PlayerName="`+player['name']+`"></div>
                 <h1 class="pool-points">`+player['points']+`
             </li> 

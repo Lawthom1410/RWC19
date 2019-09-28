@@ -224,6 +224,9 @@
     margin-bottom: auto;
     font-size: 40px;
 }
+.pool-second-player{
+    border-bottom: dotted orange 7px;
+}
 .tournament-grid-container{
     background-color: white;
     display: grid;
