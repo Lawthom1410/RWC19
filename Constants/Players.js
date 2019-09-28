@@ -1,4 +1,4 @@
-function Player(name, team, img, logo, flag, pool, tieBreak, points){
+function Player(name, team, img, logo, flag, pool, colour, tieBreak, points){
     return {
         "name": name,
         "team": team,
@@ -6,32 +6,33 @@ function Player(name, team, img, logo, flag, pool, tieBreak, points){
         "logo": logo,
         "flag": flag,
         "pool": pool,
+        "colour": colour,
         "tieBreak": tieBreak,
         "points": points
     }
 }
 
 const PLAYERS = [
-    Player("Andrea", "Tonga", "Andrea.jpg", "Tonga_logo.png", "Tonga_flag.jpg", "C", 0, 0),
-    Player("Claire", "Ireland", "Claire2.jpg", "Ireland_logo.png", "Ireland_flag.jpg", "A", 1, 6),
-    Player("Freddy", "Scotland", "FreddySqr2.png" ,"Scotland_logo.png", "Scotland_flag.jpg", "A", -1, 0),
-    Player("Louise", "Russia", "LouiseSqr2.jpg", "Russia_logo.png", "Russia_flag.jpg", "A", -1, 0),
-    Player("Naomi", "England", "NaomiSqr.jpg", "England_logo.png", "England_flag.jpg", "C", 0, 10),
-    Player("George", "Canada", "GeorgeSqr2.png", "Canada_logo.png", "Canada_flag.jpg", "B", -3, 0),
-    Player("Geraint", "Namibia", "GeraintSqr.png", "Namibia_logo.png", "Namibia_flag.jpg", "B", -2, 0),
-    Player("Josie", "France", "JosieSqr.png", "France_logo.png", "France_flag.jpg", "C", 0, 4),
-    Player("Martine", "Samoa", "MartineSqr3.png", "Samoa_logo.png", "Samoa_flag.jpg", "A", 3, 5),
-    Player("Ian", "Fiji", "IanSqr.png", "Fiji_logo.png", "Fiji_flag.jpg", "D", -1, 2),
-    Player("Julian", "Argentina", "JulianSqr.png", "Argentina_logo.png", "Argentina_flag.jpg", "C", 0, 6),
-    Player("Lee", "Italy", "LeeSqr.png", "Italy_logo.png", "Italy_flag.jpg", "B", 0, 10),
-    Player("Leah", "New Zealand", "LeahSqr2.png", "NewZealand_logo.png", "NewZealand_flag.jpg", "B", 0, 4),
-    Player("Gary", "Japan", "GarySqr.jpg", "Japan_logo.png", "Japan_flag.jpg", "A", 0, 9),
-    Player("Jack", "U.S.A", "JackSqr.jpg", "USA_logo.png", "USA_flag.jpg", "C", -1, 0),
-    Player("Joe", "Uruguay", "JoeSqr.jpg", "Uruguay_logo.png", "Uruguay_flag.jpg", "D", 0, 4),
-    Player("Connor", "South Africa", "ConnorSqr.jpg", "SouthAfrica_logo.png", "SouthAfrica_flag.jpg", "B", -1, 0),
-    Player("Callum", "Georgia", "CallumSqr.jpg", "Georgia_logo.png", "Georgia_flag.jpg", "D", -2, 0),
-    Player("Lili","Australia", "LiliSqr2.jpg", "Australia_logo.png", "Australia_flag.jpg", "D", 0, 5),
-    Player("Rhiannon", "Wales", "RhiannonSqr.jpeg", "Wales_logo.png", "Wales_flag.svg", "D", 1, 5)
+    Player("Andrea", "Tonga", "Andrea.jpg", "Tonga_logo.png", "Tonga_flag.jpg", "C", "red-white",0, 0),
+    Player("Claire", "Ireland", "Claire2.jpg", "Ireland_logo.png", "Ireland_flag.jpg", "A", "green-gif", 1, 6),
+    Player("Freddy", "Scotland", "FreddySqr2.png" ,"Scotland_logo.png", "Scotland_flag.jpg", "A", "blue-white-gif", -1, 0),
+    Player("Louise", "Russia", "LouiseSqr2.jpg", "Russia_logo.png", "Russia_flag.jpg", "A", "red-blue", -1, 0),
+    Player("Naomi", "England", "NaomiSqr.jpg", "England_logo.png", "England_flag.jpg", "C", "red", 0, 10),
+    Player("George", "Canada", "GeorgeSqr2.png", "Canada_logo.png", "Canada_flag.jpg", "B", "red", -1, 0),
+    Player("Geraint", "Namibia", "GeraintSqr.png", "Namibia_logo.png", "Namibia_flag.jpg", "B", "blue", -2, 0),
+    Player("Josie", "France", "JosieSqr.png", "France_logo.png", "France_flag.jpg", "C", "blue", 0, 4),
+    Player("Martine", "Samoa", "MartineSqr3.png", "Samoa_logo.png", "Samoa_flag.jpg", "A", "blue", 3, 5),
+    Player("Ian", "Fiji", "IanSqr.png", "Fiji_logo.png", "Fiji_flag.jpg", "D", "blue", -1, 2),
+    Player("Julian", "Argentina", "JulianSqr.png", "Argentina_logo.png", "Argentina_flag.jpg", "C", "blue", 0, 6),
+    Player("Lee", "Italy", "LeeSqr.png", "Italy_logo.png", "Italy_flag.jpg", "B", "blue", 0, 10),
+    Player("Leah", "New Zealand", "LeahSqr2.png", "NewZealand_logo.png", "NewZealand_flag.jpg", "B", "blue", 0, 4),
+    Player("Gary", "Japan", "GarySqr.jpg", "Japan_logo.png", "Japan_flag.jpg", "A", "blue", 0, 9),
+    Player("Jack", "U.S.A", "JackSqr.jpg", "USA_logo.png", "USA_flag.jpg", "C", "blue", -1, 0),
+    Player("Joe", "Uruguay", "JoeSqr.jpg", "Uruguay_logo.png", "Uruguay_flag.jpg", "D", "blue", 0, 4),
+    Player("Connor", "South Africa", "ConnorSqr.jpg", "SouthAfrica_logo.png", "SouthAfrica_flag.jpg", "B", "blue", 0, 5),
+    Player("Callum", "Georgia", "CallumSqr.jpg", "Georgia_logo.png", "Georgia_flag.jpg", "D", "blue", -2, 0),
+    Player("Lili","Australia", "LiliSqr2.jpg", "Australia_logo.png", "Australia_flag.jpg", "D", "blue", 0, 5),
+    Player("Rhiannon", "Wales", "RhiannonSqr.jpeg", "Wales_logo.png", "Wales_flag.svg", "D", "blue", 1, 5)
 ]
 
 function getPlayer(name){

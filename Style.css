@@ -111,7 +111,11 @@
     margin-right: 30px;
 }
 .player-card-body{
-    background-image: linear-gradient(to bottom, rgb(63, 163, 222, 0.3) 0%, rgb(63, 163, 222, 0.3) 25%,  white 25%, white 100%);
+    background-color: white;
+    /* background-image: linear-gradient(to bottom, rgb(63, 163, 222, 0.3) 0%, rgb(63, 163, 222, 0.3) 25%,  white 25%, white 100%); */
+    background-image: url("./img/Style/blue-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 25%;
 }
 .player-card-name{
     font-size: 70px;
