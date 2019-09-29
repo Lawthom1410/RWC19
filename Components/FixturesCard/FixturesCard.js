@@ -35,8 +35,8 @@ function renderFixturesCard(){
             </div>
             <div class="fixture-details">
                 <div class="fixture-images">
-                    <img src="./img/Players/`+homePlayer['image']+`" class="fixture-element-img"></img>
-                    <img src="./img/Teams/`+homePlayer['logo']+`" class="fixture-element-logo"></img>
+                    <img src="./img/Players/`+homePlayer['name']+`Sqr.png" class="fixture-element-img"></img>
+                    <img src="./img/Teams/`+homePlayer['team']+`_logo.png" class="fixture-element-logo"></img>
                 </div>
                 <div class="fixture-text-container">
                     <h3 class="fixture-detail">`+stage+`</h3>
@@ -54,8 +54,8 @@ function renderFixturesCard(){
                     <h3 class="fixture-detail">`+fixture['venue']+`</h3>
                 </div>
                 <div class="fixture-images">
-                    <img src="./img/Players/`+awayPlayer['image']+`" class="fixture-element-img"></img>
-                    <img src="./img/Teams/`+awayPlayer['logo']+`" class="fixture-element-logo"></img>
+                    <img src="./img/Players/`+awayPlayer['name']+`Sqr.png" class="fixture-element-img"></img>
+                    <img src="./img/Teams/`+awayPlayer['team']+`_logo.png" class="fixture-element-logo"></img>
                 </div>
             </div>
             <div class="card-footer fixtures-footer">

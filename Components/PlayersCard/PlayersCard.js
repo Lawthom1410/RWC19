@@ -3,9 +3,10 @@ function renderPlayersCard(){
     for (let i of tags) {
         let name = i.getAttribute("Name");
         let team = i.getAttribute("Team");
-        let image = i.getAttribute("Image");
-        let logo = i.getAttribute("Logo");
-        let flag = i.getAttribute("Flag");
+
+        let image = "./img/Players/"+name+"Sqr.png";
+        let logo = "./img/Teams/"+team+"_logo.png";
+        let flag = "./img/Teams/"+team+"_flag.png";
         let colour = i.getAttribute("Colour");
 
         let HTML = `

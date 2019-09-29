@@ -13,8 +13,8 @@ function renderPlayerElement(){
         } else {
             HTML = `
             <div class="element-grid-container">
-                <img src="./img/Teams/`+Player['logo']+`" class="player-element-logo">
-                <img src="./img/Players/`+Player['image']+`" class="player-element-img">
+                <img src="./img/Teams/`+Player['team']+`_logo.png" class="player-element-logo">
+                <img src="./img/Players/`+Player['name']+`Sqr.png" class="player-element-img">
                 <div class="player-element-name-team">
                     <h1 class="player-element-name">`+Player['name']+`</h1>
                     <h3 class="player-element-team">`+Player['team']+`</h3>
