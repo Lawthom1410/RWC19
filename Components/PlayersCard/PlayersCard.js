@@ -11,7 +11,7 @@ function renderPlayersCard(){
 
         let HTML = `
         <div class="card player-card">
-            <div class="card-body player-card-body" style="background-image: url('`+flag+`')">
+            <div class="card-body player-card-body" style="background-image: url('./img/Style/`+team+`_bg.png')">
                 <img src="`+image+`" class="player-card-img">
                 <h1 class="player-card-name">`+name+`</h1>
                 <h2 class="player-card-team">`+team+`</h2>
