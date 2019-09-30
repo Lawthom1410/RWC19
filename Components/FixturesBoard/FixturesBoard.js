@@ -45,7 +45,7 @@ function filterFixtures() {
 }
 
 function filterResults() {
-  activeMatches = FIXTURES.filter(match => match['homeScore']!=null);
+  activeMatches = FIXTURES.filter(match => match['homeScore']!=null).reverse();
   renderFixturesBoard(activeMatches, "Results");
 }
 
