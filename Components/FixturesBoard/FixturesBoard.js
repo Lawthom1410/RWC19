@@ -52,6 +52,7 @@ function filterResults() {
 function filterToday() {
   date = getTodayDate();
   day = (date[0]).toString();
+  if (day.length==1){day = "0"+day}
   activeMatches = FIXTURES.filter(match => match['date']==day+" "+date[1]);
   renderFixturesBoard(activeMatches, "Today");
 }
@@ -59,6 +60,7 @@ function filterToday() {
 function filterTomorrow() {
   date = getTodayDate();
   day = (date[0]+1).toString();
+  if (day.length==1){day = "0"+day}
   activeMatches = FIXTURES.filter(match => match['date']==day+" "+date[1]);
   renderFixturesBoard(activeMatches, "Tomorrow");
 }
