@@ -14,7 +14,7 @@ const PLAYERS = [
     Player("Claire", "Ireland", "A", "green-gif", 1, 11),
     Player("Freddy", "Scotland", "A", "blue-gif", 0, 5),
     Player("Louise", "Russia", "A", "red-blue", -1, 0),
-    Player("Naomi", "England", "C", "england-gif", 0, 10),
+    Player("Naomi", "England", "C", "england-gif", 0, 15),
     Player("George", "Canada", "B", "red", -1, 0),
     Player("Geraint", "Namibia", "B", "blue", 0, 0),
     Player("Josie", "France", "C", "blue", 0, 9),
