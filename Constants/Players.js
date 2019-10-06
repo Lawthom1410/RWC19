@@ -10,14 +10,14 @@ function Player(name, team, pool, colour, tieBreak, points){
 }
 
 const PLAYERS = [
-    Player("Andrea", "Tonga", "C", "red-white",0, 0),
+    Player("Andrea", "Tonga", "C", "red-white",0, 1),
     Player("Claire", "Ireland", "A", "green-gif", 1, 11),
     Player("Freddy", "Scotland", "A", "blue-gif", 0, 5),
     Player("Louise", "Russia", "A", "red-blue", -1, 0),
     Player("Naomi", "England", "C", "england-gif", 0, 15),
     Player("George", "Canada", "B", "red", 0, 0),
     Player("Geraint", "Namibia", "B", "blue", -1, 0),
-    Player("Josie", "France", "C", "blue", 0, 9),
+    Player("Josie", "France", "C", "blue", 0, 13),
     Player("Martine", "Samoa", "A", "blue", -1, 5),
     Player("Ian", "Fiji", "D", "blue", 0, 7),
     Player("Julian", "Argentina", "C", "blue", 0, 6),

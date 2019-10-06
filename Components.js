@@ -5,6 +5,14 @@ function importScript(component){
     body.append(script);
 }
 
+// const constants = [
+//     "MakeRequest"
+// ]
+
+const services = [
+    "PlayerService"
+]
+
 const components = [
     "Header",
     "Body", "TitleBar", "TournamentBoard",
