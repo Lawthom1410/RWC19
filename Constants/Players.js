@@ -22,7 +22,7 @@ const PLAYERS = [
     Player("Ian", "Fiji", "D", "blue", 0, 7),
     Player("Julian", "Argentina", "C", "blue", 0, 6),
     Player("Lee", "Italy", "B", "blue", -1, 10),
-    Player("Leah", "New Zealand", "B", "blue", 0, 9),
+    Player("Leah", "New Zealand", "B", "blue", 0, 14),
     Player("Gary", "Japan", "A", "blue", 0, 14),
     Player("Jack", "USA", "C", "blue", -1, 0),
     Player("Joe", "Uruguay", "D", "blue", 0, 4),
