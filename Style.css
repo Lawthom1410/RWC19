@@ -358,6 +358,9 @@
 .login-error{
     color: red;
 }
+#login-error{
+    padding-top: 20px;
+}
 .login-input{
     font-size: 30px;
     width: 18rem;
