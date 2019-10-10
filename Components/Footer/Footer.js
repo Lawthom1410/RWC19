@@ -41,7 +41,9 @@ function Footer_handlePlayersBtn(){
 
 function Footer_handleChatBtn(){
     renderBody("ChatBoard");
-    document.getElementsByClassName("Body")[0].scrollIntoView();
+    stateChatPosts['scrolled']=false;
+    document.getElementsByClassName("Body")[0].scrollIntoView(false);
     renderFooter("chatBtn");
+    // window.location = "http://localhost:8080";
 }
 

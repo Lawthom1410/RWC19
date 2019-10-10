@@ -13,7 +13,6 @@
     height: 80;
     position: relative;
 }
-
 .header{
     /* height: 10rem; */
     /* border: solid rgb(10, 28, 44) 10px; */
@@ -348,4 +347,80 @@
 } */
 .fixture-label{
     background-size: cover;
+}
+
+.login-card{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 50%; */
+}
+.login-error{
+    color: red;
+}
+.login-input{
+    font-size: 30px;
+    width: 18rem;
+}
+#login-form{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    justify-content: center;
+}
+.ChatInputBar {
+    position: fixed;
+    width: 100%;
+    font-size: 40px;
+}
+.chat-input-box-btn{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+.chat-input-container{
+    /* background: whitesmoke; */
+    /* border: solid rgb(10, 28, 44) 10px; */
+}
+.chat-send-icon{
+    font-size: 6rem;
+}
+.chat-post-container{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 200px auto;
+    min-height: 200px;
+}
+.chat-post-text-box{
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto 150px;
+    grid-template-rows: 50px auto;
+}
+/* .chat-post-text{
+    grid-column-start: 1;
+    grid-column-end: 3;
+} */
+.chat-post-time{
+    text-align: center;
+    /* margin-right: 50px; */
+}
+/* .chat-post-text-header{
+    display: grid;
+    grid-template-columns: auto auto;
+} */
+#message-input-form{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-row-gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#message-input{
+    height: 100px;
+    width: 600px;
+    margin:auto;
+    padding: 0;
+    font-size: 50px;
 }

@@ -3,7 +3,6 @@ try {
 } catch (ReferenceError) {
     location.reload();
 }
-
 console.log("App.js");
 function renderApp(){
     tags = document.getElementsByClassName("App");
