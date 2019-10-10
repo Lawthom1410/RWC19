@@ -32,6 +32,7 @@ function renderChatInputBar(){
 function handleChatInput(data){
     let playerId = stateChatBoard['activePlayer'];
     let messageContent = data.elements["message-input"].value;
+    console.log(messageContent);
     if (playerId){
         document.getElementById("chat-error-message").innerText = "";
         sendMessage(playerId, messageContent);
