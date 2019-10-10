@@ -390,10 +390,10 @@
     font-size: 6rem;
 }
 .chat-post-container{
-    padding-top: 10px;
+    padding-top: 20px;
     display: grid;
     grid-template-columns: 200px auto;
-    min-height: 200px;
+    /* min-height: 200px; */
 }
 .chat-post-text-box{
     text-align: left;
@@ -405,6 +405,8 @@
     grid-column-start: 1;
     grid-column-end: 3;
     padding-right: 30px;
+    padding-bottom: 20px;
+    font-weight: 300;
 }
 .chat-post-time{
     text-align: center;
