@@ -12,7 +12,7 @@ function Player(playerId, name, team, pool, tieBreak, points, pin){
 
 const PLAYERS = [
     Player(1, "Andrea", "Tonga", "C",0, 1, 1000),
-    Player(2, "Claire", "Ireland", "A", 1, 11, 1234),
+    Player(2, "Claire", "Ireland", "A", 1, 16, 1234),
     Player(3, "Freddy", "Scotland", "A", 0, 10, 1010),
     Player(4, "Louise", "Russia", "A", -1, 0, 2000),
     Player(5, "Naomi", "England", "C", 0, 17, 9999),
