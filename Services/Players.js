@@ -30,7 +30,7 @@ const PLAYERS = [
     Player(17, "Connor", "South Africa", "B", 1, 15, 2020),
     Player(18, "Callum", "Georgia", "D", -2, 5, 1997),
     Player(19, "Lili","Australia", "D", 0, 16, 3333),
-    Player(20, "Rhiannon", "Wales", "D", 1, 14, 4444)
+    Player(20, "Rhiannon", "Wales", "D", 1, 19, 4444)
 ]
 
 function getPlayer(inputName){
