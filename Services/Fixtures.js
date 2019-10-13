@@ -53,7 +53,17 @@ const FIXTURES = [
     Fixture(37, "Geraint", "George", 0, 0, "pool", "sun", "13 october", "04:15", "[CANCLED] Kamaishi Recovery Memorial Stadium, Iwate Prefecture, Kamaishi City"),
     Fixture(38, "Jack", "Andrea", 19, 31, "pool", "sun", "13 october", "06:45", "Hanazono Rugby Stadium, Osaka Prefecture, Higashiosaka City"),
     Fixture(39, "Rhiannon", "Joe", null, null, "pool", "sun", "13 october", "09:15", "Kumamoto Stadium, Kumamoto Prefecture, Kumamoto City"),
-    Fixture(40, "Gary", "Freddy", null, null, "pool", "sun", "13 october", "11:45", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City")
+    Fixture(40, "Gary", "Freddy", null, null, "pool", "sun", "13 october", "11:45", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City"),
+    Fixture(41, "Naomi", "Runner-up Pool D", null, null, "Quarter Final", "sat", "19 october", "08:15", "Oita Stadium, Oita Prefecture"),
+    Fixture(42, "Leah", "Runner-up Pool A", null, null, "Quarter Final", "sat", "19 october", "11:15", "Tokyo Stadium, Tokyo"),
+    Fixture(43, "Winner Pool D", "Josie", null, null, "Quarter Final", "sun", "20 october", "08:15", "Oita Stadium, Oita Prefecture"),
+    Fixture(44, "Winner Pool A", "Connor", null, null, "Quarter Final", "sun", "20 october", "11:15", "Tokyo Stadium, Tokyo"),
+    Fixture(45, "Winner QF1", "Winner QF2", null, null, "Semi Final", "sun", "27 october", "09:00", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City"),
+    Fixture(46, "Winner QF3", "Winner QF4", null, null, "Semi Final", "sun", "27 october", "09:00", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City"),
+    Fixture(47, "Loser SF1", "Loser SF2", null, null, "Bronze Final", "fri", "01 november", "09:00", "Tokyo Stadium, Tokyo"),
+    Fixture(48, "Winner SF1", "Winner SF2", null, null, "Final", "sat", "02 november", "09:00", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City")
+
+
 ]
 
 function getFixture(id){

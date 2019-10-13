@@ -25,6 +25,8 @@ function renderFixturesCard(){
 
         let homeName;
         let awayName;
+        homePlayer ? homeName = homePlayer['name'] : homeName = fixture['homeName']; 
+        awayPlayer ? awayName = awayPlayer['name'] : awayName = fixture['awayName'];
 
         let HTML = ` 
         <div class="fixture-label pool-header-`+stageLabel+`"></div>
@@ -34,35 +36,72 @@ function renderFixturesCard(){
                 <h1>`+fixture['time']+`</h1>
             </div>
             <div class="fixture-details">
+            `
+        if (homePlayer) {
+            HTML += `            
                 <div class="fixture-images">
-                    <img src="./img/Players/`+homePlayer['name']+`Sqr.png" class="fixture-element-img"></img>
+                    <img src="./img/Players/`+homeName+`Sqr.png" class="fixture-element-img"></img>
                     <img src="./img/Teams/`+homePlayer['team']+`_logo.png" class="fixture-element-logo"></img>
                 </div>
                 <div class="fixture-text-container">
                     <h3 class="fixture-detail">`+stage+`</h3>
                     <div class="fixture-names-score">
                         <div>
-                            <h1 class="fixture-name">`+homePlayer['name'].toUpperCase()+`</h1>
+                            <h1 class="fixture-name">`+homeName.toUpperCase()+`</h1>
                             <h3 class="fixture-team">`+homePlayer['team']+`</h3>
                         </div>
-                        <h1 class="fixture-score">`+score+`</h1>
+                `
+        } else {
+            HTML += `            
+                <div class="fixture-text-container">
+                    <h3 class="fixture-detail">`+stage+`</h3>
+                    <div class="fixture-names-score">
                         <div>
-                            <h1 class="fixture-name">`+awayPlayer['name'].toUpperCase()+`</h1>
+                            <h1 class="fixture-name">`+homeName.toUpperCase()+`</h1>
+                        </div>
+                `
+        }
+
+        HTML += `
+                        <h1 class="fixture-score">`+score+`</h1>
+
+        `
+        if (awayPlayer) {
+            HTML += `
+                        <div>
+                            <h1 class="fixture-name">`+awayName.toUpperCase()+`</h1>
                             <h3 class="fixture-team">`+awayPlayer['team']+`</h3>
                         </div>
                     </div>
                     <h3 class="fixture-detail">`+fixture['venue']+`</h3>
                 </div>
                 <div class="fixture-images">
-                    <img src="./img/Players/`+awayPlayer['name']+`Sqr.png" class="fixture-element-img"></img>
+                    <img src="./img/Players/`+awayName+`Sqr.png" class="fixture-element-img"></img>
                     <img src="./img/Teams/`+awayPlayer['team']+`_logo.png" class="fixture-element-logo"></img>
                 </div>
             </div>
-            <div class="card-footer fixtures-footer">
-                <h1><a href="https://www.rugbyworldcup.com/match/`+homePlayer['team'].replace(/\s/g, '')+`-`+awayPlayer['team'].replace(/\s/g, '')+`" target="_blank">Match Info ></a></h1>
+        `
+        } else {
+            HTML += `
+                        <div>
+                            <h1 class="fixture-name">`+awayName.toUpperCase()+`</h1>
+                        </div>
+                    </div>
+                    <h3 class="fixture-detail">`+fixture['venue']+`</h3>
+                </div>
             </div>
-        </div>
-        `;
+            `
+        }
+
+        if (homePlayer && awayPlayer) {
+            HTML += `
+                    <div class="card-footer fixtures-footer">
+                    <h1><a href="https://www.rugbyworldcup.com/match/`+homePlayer['team'].replace(/\s/g, '')+`-`+awayPlayer['team'].replace(/\s/g, '')+`" target="_blank">Match Info ></a></h1>
+                </div>
+            </div>
+            `
+        }
+        
 
         i.innerHTML = HTML;
     }

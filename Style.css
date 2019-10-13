@@ -209,6 +209,9 @@
 .pool-header-Semi-Final{
     background-image: url("./img/Style/orange-bg.jpg");
 }
+.pool-header-Bronze-Final {
+    background-image: url("./img/Style/bronze-bg.jpg");
+}
 .pool-header-Final{
     background-image: url("./img/Style/gold-bg.jpg");
 }
