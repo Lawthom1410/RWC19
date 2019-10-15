@@ -22,7 +22,7 @@ function renderFixturesBoard(activeMatches, activeBtn){
       if (currentDate != match['date']){
         currentDate = match['date'];
         HTML += `
-        <div class="FixturesDateContainer" Date="`+currentDate+`"></div>
+        <div class="FixturesDateContainer" Date="${currentDate}"></div>
         `
       }
     }

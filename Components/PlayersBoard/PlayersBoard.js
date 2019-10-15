@@ -6,9 +6,9 @@ function renderPlayersBoard(){
         for (let player of PLAYERS) {
             HTML += `
             <div
-                Name="`+player['name']+`"
-                Team="`+player['team']+`"
-                Colour="./img/Style/`+player['colour']+`"
+                Name="${player['name']}"
+                Team="${player['team']}"
+                Colour="./img/Style/${player['colour']}"
                 class="PlayersCard">
             </div>
             ` 

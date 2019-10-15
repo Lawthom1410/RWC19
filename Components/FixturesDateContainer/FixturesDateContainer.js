@@ -5,10 +5,10 @@ function renderFixturesDateContainer(activeMatches){
         let date = i.getAttribute("Date");
         let dateFixtures = activeMatches.filter(fixture => fixture['date']==date);
 
-        let HTML = `<h1 class="date-label">`+date.toUpperCase()+`</h1>`;
+        let HTML = `<h1 class="date-label">${date.toUpperCase()}</h1>`;
         for (fixture of dateFixtures){
             HTML += `
-            <div class="FixturesCard" FixtureId="`+fixture['id']+`"></div>
+            <div class="FixturesCard" FixtureId="${fixture['id']}"></div>
             `
         }
 

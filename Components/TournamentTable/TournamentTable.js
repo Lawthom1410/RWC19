@@ -7,8 +7,8 @@ function renderTournamentTable(){
         
         let HTML = `
             <div class="card group-card">
-                <div class="card-header pool-header pool-header-`+pool+`">
-                    <h1 class="pool-title">Pool `+pool+`</h1>
+                <div class="card-header pool-header pool-header-${pool}">
+                    <h1 class="pool-title">Pool ${pool}</h1>
                 </div>
                 <ul class="list-group list-group-flush">
         `
@@ -21,8 +21,8 @@ function renderTournamentTable(){
                 HTML += `pool-second-player`;
             }
             HTML += ` ">
-                <div class="PlayerElement" PlayerName="`+player['name']+`"></div>
-                <h1 class="pool-points">`+player['points']+`
+                <div class="PlayerElement" PlayerName="${player['name']}"></div>
+                <h1 class="pool-points">${player['points']}
             </li> 
             `
         }

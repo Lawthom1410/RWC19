@@ -5,7 +5,7 @@ function renderTitleBar(){
         
         let HTML = `
         <div class="card title-card">
-            <h1 class="page-title">`+title+`</h1>
+            <h1 class="page-title">${title}</h1>
         </div>
         `;
 

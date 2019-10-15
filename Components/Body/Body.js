@@ -9,8 +9,8 @@ function renderBody(board){
     for (let i of tags) {
         
         let HTML = `
-        <div class='TitleBar sticky-top' Title='`+getTitle(board)+`'></div>
-        <div class='`+board+` py-4'></div>
+        <div class='TitleBar sticky-top' Title='${getTitle(board)}'></div>
+        <div class='${board} py-4'></div>
         `;
 
         i.innerHTML = HTML;
