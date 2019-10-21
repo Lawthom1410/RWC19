@@ -94,14 +94,19 @@ function renderFixturesCard(){
         }
 
         if (homePlayer && awayPlayer) {
+            let matchInfoLink;
+            if (fixture['stage']=="pool"){
+                matchInfoLink = `https://www.rugbyworldcup.com/match/${homePlayer['team'].replace(/\s/g, '')}-${awayPlayer['team'].replace(/\s/g, '')}`;
+            } else {
+                matchInfoLink = `https://www.rugbyworldcup.com/match/${fixture['stage'].replace(/ /g, '-')}`;
+            }
             HTML += `
                     <div class="card-footer fixtures-footer">
-                    <h1><a href="https://www.rugbyworldcup.com/match/${homePlayer['team'].replace(/\s/g, '')}-${awayPlayer['team'].replace(/\s/g, '')}" target="_blank">Match Info ></a></h1>
+                    <h1><a href="${matchInfoLink}" target="_blank">Match Info ></a></h1>
                 </div>
             </div>
             `
         }
-        
 
         i.innerHTML = HTML;
     }

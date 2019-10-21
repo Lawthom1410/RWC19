@@ -54,12 +54,12 @@ const FIXTURES = [
     Fixture(38, "Jack", "Andrea", 19, 31, "pool", "sun", "13 october", "06:45", "Hanazono Rugby Stadium, Osaka Prefecture, Higashiosaka City"),
     Fixture(39, "Rhiannon", "Joe", 35, 13, "pool", "sun", "13 october", "09:15", "Kumamoto Stadium, Kumamoto Prefecture, Kumamoto City"),
     Fixture(40, "Gary", "Freddy", 28, 21, "pool", "sun", "13 october", "11:45", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City"),
-    Fixture(41, "Naomi", "Lili", 40, 16, "Quarter Final", "sat", "19 october", "08:15", "Oita Stadium, Oita Prefecture"),
-    Fixture(42, "Leah", "Claire", 46, 14, "Quarter Final", "sat", "19 october", "11:15", "Tokyo Stadium, Tokyo"),
-    Fixture(43, "Rhiannon", "Josie", 20, 19, "Quarter Final", "sun", "20 october", "08:15", "Oita Stadium, Oita Prefecture"),
-    Fixture(44, "Gary", "Connor", 3, 26, "Quarter Final", "sun", "20 october", "11:15", "Tokyo Stadium, Tokyo"),
-    Fixture(45, "Naomi", "Leah", null, null, "Semi Final", "sat", "26 october", "09:00", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City"),
-    Fixture(46, "Rhiannon", "Connor", null, null, "Semi Final", "sun", "27 october", "09:00", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City"),
+    Fixture(41, "Naomi", "Lili", 40, 16, "Quarter Final 1", "sat", "19 october", "08:15", "Oita Stadium, Oita Prefecture"),
+    Fixture(42, "Leah", "Claire", 46, 14, "Quarter Final 2", "sat", "19 october", "11:15", "Tokyo Stadium, Tokyo"),
+    Fixture(43, "Rhiannon", "Josie", 20, 19, "Quarter Final 3", "sun", "20 october", "08:15", "Oita Stadium, Oita Prefecture"),
+    Fixture(44, "Gary", "Connor", 3, 26, "Quarter Final 4", "sun", "20 october", "11:15", "Tokyo Stadium, Tokyo"),
+    Fixture(45, "Naomi", "Leah", null, null, "Semi Final 1", "sat", "26 october", "09:00", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City"),
+    Fixture(46, "Rhiannon", "Connor", null, null, "Semi Final 2", "sun", "27 october", "09:00", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City"),
     Fixture(47, "Loser SF1", "Loser SF2", null, null, "Bronze Final", "fri", "01 november", "09:00", "Tokyo Stadium, Tokyo"),
     Fixture(48, "Winner SF1", "Winner SF2", null, null, "Final", "sat", "02 november", "09:00", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City")
 
