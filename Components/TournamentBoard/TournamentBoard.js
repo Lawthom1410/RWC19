@@ -14,7 +14,7 @@ function renderTournamentBoard(){
         </div>
 
         <div class="tournament-grid-container">
-            <div class="TournamentKnockoutMatch" RoundLabel="Semi Final" namePlayer1="Winner QF1" namePlayer2="Winner QF2"></div>
+            <div class="TournamentKnockoutMatch" RoundLabel="Semi Final" namePlayer1="Connor" namePlayer2="Rhiannon"></div>
         </div>
 
         <div class="tournament-grid-container">
@@ -22,7 +22,7 @@ function renderTournamentBoard(){
         </div>
 
         <div class="tournament-grid-container">
-            <div class="TournamentKnockoutMatch" RoundLabel="Semi Final" namePlayer1="Winner QF3" namePlayer2="Winner QF4"></div>
+            <div class="TournamentKnockoutMatch" RoundLabel="Semi Final" namePlayer1="Leah" namePlayer2="Naomi"></div>
         </div>
 
         <div class="tournament-grid-container">
