@@ -58,10 +58,10 @@ const FIXTURES = [
     Fixture(42, "Leah", "Claire", 46, 14, "Quarter Final 2", "sat", "19 october", "11:15", "Tokyo Stadium, Tokyo"),
     Fixture(43, "Rhiannon", "Josie", 20, 19, "Quarter Final 3", "sun", "20 october", "08:15", "Oita Stadium, Oita Prefecture"),
     Fixture(44, "Gary", "Connor", 3, 26, "Quarter Final 4", "sun", "20 october", "11:15", "Tokyo Stadium, Tokyo"),
-    Fixture(45, "Naomi", "Leah", null, null, "Semi Final 1", "sat", "26 october", "09:00", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City"),
+    Fixture(45, "Naomi", "Leah", 19, 7, "Semi Final 1", "sat", "26 october", "09:00", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City"),
     Fixture(46, "Rhiannon", "Connor", null, null, "Semi Final 2", "sun", "27 october", "09:00", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City"),
-    Fixture(47, "Loser SF1", "Loser SF2", null, null, "Bronze Final", "fri", "01 november", "09:00", "Tokyo Stadium, Tokyo"),
-    Fixture(48, "Winner SF1", "Winner SF2", null, null, "Final", "sat", "02 november", "09:00", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City")
+    Fixture(47, "Leah", "Loser SF2", null, null, "Bronze Final", "fri", "01 november", "09:00", "Tokyo Stadium, Tokyo"),
+    Fixture(48, "Naomi", "Winner SF2", null, null, "Final", "sat", "02 november", "09:00", "International Stadium Yokohama, Kanagawa Prefecture, Yokohama City")
 
 
 ]
