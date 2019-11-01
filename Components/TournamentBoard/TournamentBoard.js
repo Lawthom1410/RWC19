@@ -18,7 +18,7 @@ function renderTournamentBoard(){
         </div>
 
         <div class="tournament-grid-container">
-            <div class="TournamentFinalMatch" RoundLabel="Final" namePlayer1="Winner SF1" namePlayer2="Naomi"></div>
+            <div class="TournamentFinalMatch" RoundLabel="Final" namePlayer1="Connor" namePlayer2="Naomi"></div>
         </div>
 
         <div class="tournament-grid-container">
